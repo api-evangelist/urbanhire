@@ -1,7 +1,23 @@
 aid: urbanhire
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urbanhire.png
 name: UrbanHire
-description: UrbanHire is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: UrbanHire was an Indonesian all-in-one hiring and assessment platform (applicant
+  tracking system) backed by 500 Global, designed to streamline recruitment and help employers
+  hire the right talent. The company appears defunct - urbanhire.com has been offline behind
+  Cloudflare (HTTP 530) with the last archived homepage from January 2021 - and it never
+  published a public API or developer documentation. Its GitHub organization and first-party
+  npm engineering packages remain the surviving technical footprint.
 url: https://raw.githubusercontent.com/api-evangelist/urbanhire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recruiting
+- Hiring
+- Applicant Tracking
+- Assessments
+- HR Tech
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/urbanhire-domain-security.yml
 - type: Website
   url: https://urbanhire.com
+- type: GitHubOrganization
+  url: https://github.com/urbanhire
+- type: Packages
+  url: packages/urbanhire-packages.yml
+- type: LLMsTxt
+  url: llms/urbanhire-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

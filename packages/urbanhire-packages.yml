@@ -1,0 +1,55 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=urbanhire
+notes: >-
+  UrbanHire (defunct Indonesian hiring/ATS platform) published first-party npm
+  packages from its engineering team. These are internal engineering utilities
+  and helper libraries, NOT client SDKs for a public API — UrbanHire never
+  published a public API. PyPI has no urbanhire package (404). GitHub org
+  https://github.com/urbanhire holds the sources (25 public repos, all
+  utilities; last meaningful activity ~2020-2023).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@urbanhire.com/vuesable"
+    url: https://www.npmjs.com/package/@urbanhire.com/vuesable
+    install: npm install @urbanhire.com/vuesable
+    official: true
+    description: Vuesable is urbanhire vue component.
+    sdk: false
+  - language: javascript
+    registry: npm
+    name: uh-responder
+    url: https://www.npmjs.com/package/uh-responder
+    install: npm install uh-responder
+    official: true
+    description: Urbanhire API helper for give json response success or error (internal Express helper).
+    repository: https://github.com/urbanhire/uh-responder
+    sdk: false
+  - language: javascript
+    registry: npm
+    name: uh-redis-cache
+    url: https://www.npmjs.com/package/uh-redis-cache
+    install: npm install uh-redis-cache
+    official: true
+    description: Urbanhire Redis Cache Library.
+    repository: https://github.com/urbanhire/uh-redis-cache
+    sdk: false
+  - language: javascript
+    registry: npm
+    name: bk-helper
+    url: https://www.npmjs.com/package/bk-helper
+    install: npm install bk-helper
+    official: true
+    description: Urbanhire helper script and static data (73 published versions).
+    repository: https://github.com/urbanhire/bk-helper
+    sdk: false
+  - language: javascript
+    registry: npm
+    name: subdomain-wildcard
+    url: https://www.npmjs.com/package/subdomain-wildcard
+    install: npm install subdomain-wildcard
+    official: true
+    description: Urbanhire wildcard subdomain handler for Express.js (fork of wildcard-subdomains).
+    repository: https://github.com/urbanhire/wildcard-subdomains
+    sdk: false

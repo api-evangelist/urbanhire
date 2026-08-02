@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+host: https://urbanhire.com
+notes: >-
+  Origin is down behind Cloudflare — every path (and the site root) returns
+  HTTP 530 (origin DNS error / origin unreachable), consistent with the company
+  being defunct. No well-known documents exist or are retrievable. Subdomains
+  api.urbanhire.com, developers.urbanhire.com, and docs.urbanhire.com do not
+  resolve at all.
+documents:
+- path: /.well-known/security.txt
+  status: 530
+- path: /.well-known/openid-configuration
+  status: 530
+- path: /.well-known/oauth-authorization-server
+  status: 530
+- path: /.well-known/api-catalog
+  status: 530
+- path: /.well-known/ai-plugin.json
+  status: 530

@@ -1,0 +1,22 @@
+# UrbanHire
+
+> UrbanHire was an Indonesian all-in-one hiring and assessment platform (applicant tracking system) backed by 500 Global (500 Startups). The company is defunct: urbanhire.com has been offline (Cloudflare HTTP 530, origin down) with the last archived homepage from January 2021. UrbanHire never published a public API, developer portal, or API documentation.
+
+Archived tagline: "All-in-one hiring and assessment platform" — applicant tracking system, products and solutions designed to streamline recruitment and hiring.
+
+## Company
+
+- [Website (offline, HTTP 530)](https://urbanhire.com)
+- [Archived homepage, 2021-01-08](http://web.archive.org/web/20210108200616/https://www.urbanhire.com/)
+- [GitHub organization](https://github.com/urbanhire): 25 public repos of internal engineering utilities (Node.js/Express helpers, Redis/Mongo connection libs, Indonesian cities/provinces data); no OpenAPI, SDKs, or protobuf.
+
+## Packages
+
+- [@urbanhire.com/vuesable](https://www.npmjs.com/package/@urbanhire.com/vuesable): first-party Vue component library
+- [uh-responder](https://www.npmjs.com/package/uh-responder): internal Express JSON response helper
+- [uh-redis-cache](https://www.npmjs.com/package/uh-redis-cache): Redis cache library
+- [bk-helper](https://www.npmjs.com/package/bk-helper): helper scripts and static data
+
+## API surface
+
+- No public API, no OpenAPI/AsyncAPI, no developer docs were ever published or archived (developers.urbanhire.com and api.urbanhire.com have no Wayback snapshots and do not resolve).
